@@ -6,6 +6,11 @@ Ask your computer natural-language questions about itself from the command line!
 
 **Why it's dangerous**: This script will ask GPT-3 to generate a command-line script for your system and run it blindly. This is a _terrible_ idea—a proper production version of this should be carefully santiized and monitored.
 
+**Update**: I've setup a project over at Glitch that you could remix and run remotely:
+- https://glitch.com/edit/#!/ask-a-computer
+
+That is _probably_ a little safer, though might be less sastifying and/or capable. Just change the `platform` variable to `"Ubuntu"`.
+
 ## What kind of questions can I ask?
 
 That said... it works pretty well (in my experience) for questions like this:
