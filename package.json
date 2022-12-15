@@ -1,0 +1,20 @@
+{
+  "name": "ask-a-computer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A GPT-3 powered tool for (dangerously) asking your computer questions about itself",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "authors": [
+    "George Mandis <george@mand.is>"
+  ],
+  "homepage": "https://github.com/georgemandis/ask-a-computer",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "openai": "^3.1.0"
+  }
+}
