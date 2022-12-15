@@ -5,6 +5,9 @@
   "description": "A GPT-3 powered tool for (dangerously) asking your computer questions about itself",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "debug": "node index.js --debug",
+    "safe": "node index.js --debug --dry-run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
