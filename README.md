@@ -1,4 +1,4 @@
-# Ask a computer
+# 🖥💬 Ask a computer
 
 Ask your computer natural-language questions about itself from the command line!
 
