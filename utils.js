@@ -2,7 +2,6 @@ import { Configuration, OpenAIApi } from "openai";
 import chalk from "chalk";
 
 export const processFlags = (flags) => {
-  // check for optionl flags
   process.argv
     .filter((arg) => {
       return (
