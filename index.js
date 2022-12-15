@@ -6,7 +6,6 @@ import { openai, log, processFlags } from "./utils.js";
 // change as needed
 const platform = "macOS";
 
-// console.log(process.argv);
 const flags = processFlags({
   debug: false,
   "dry-run": false,
