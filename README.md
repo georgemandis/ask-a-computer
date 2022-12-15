@@ -1,6 +1,6 @@
-# Ask a computer
+# 🖥💬 Ask a computer
 
-Ask your computer natural-language questions about itself from the command line!
+Ask your computer natural-language questions about itself from the command line! Powereed by GPT-3 and reckless abandon.
 
 🛑 **Caveat emptor:** This is dangerous! You probably shouldn't use this without a deep understanding of all the ways it could go wrong! I am not responsible for *anything* that breaks or goes wrong if you try to use this.
 
