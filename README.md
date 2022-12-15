@@ -1,8 +1,12 @@
 # Ask a computer
 
-**Caveat emptor:** This is dangerous! You probably shouldn't use this without a deep understanding of all the ways it could go wrong! Not responsible for anything that breaks terribly trying to use this.
+Ask your computer natural-language questions about itself from the command line!
+
+🛑 **Caveat emptor:** This is dangerous! You probably shouldn't use this without a deep understanding of all the ways it could go wrong! I am not responsible for *anything* that breaks or goes wrong if you try to use this.
 
 **Why it's dangerous**: This script will ask GPT-3 to generate a command-line script for your system and run it blindly. This is a _terrible_ idea—a proper production version of this should be carefully santiized and monitored.
+
+## What kind of questions can I ask?
 
 That said... it works pretty well (in my experience) for questions like this:
 
@@ -31,19 +35,18 @@ That said... it works pretty well (in my experience) for questions like this:
 - What process is using the most memory right now on my machine?
 
 
-To use this:
-
-- Run `npm install` or `yarn` from the project root
-- Get an API token from OpenAI 
-- Set the value for `OPENAI_API_TOKEN` to this token
-- Update the `platform` variable in `index.js` to match your system (default is macOS)
-- run `node index.js` from the root folder.
-
-**Notes**:
-There are 2 flags that can be passed in:
-- `--debug` will show helpful debugging information including raw responses from OpenAI, the command it tries to execute and more-detailed error messages
-- `--dry-run` will request a command from OpenAI but not actually run it
-
 ## Requirements:
 - Node 19.1+
 - An OpenAI account and API token stored as an environmental variable
+
+## Getting started
+- Run `npm install` or `yarn` from the project root
+- Get an API token from OpenAI 
+- Set the value for an environmental variale called `OPENAI_API_TOKEN` to this token
+- **Important →** Update the `platform` variable in `index.js` to match your system (default is `macOS`)
+- run `npm run start` or `yarn start` from the root folder. You can also run `debug` or `safe` to automatically pass in flags that will surface more logging and protect you from yourself.
+
+### Flags
+There are 2 flags that can be passed in:
+- `--debug` will show helpful debugging information including raw responses from OpenAI, the command it tries to execute and more-detailed error messages
+- `--dry-run` will request a command from OpenAI but not actually run it
