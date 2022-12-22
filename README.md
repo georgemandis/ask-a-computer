@@ -2,6 +2,8 @@
 
 Ask your computer natural-language questions about itself from the command line! Powereed by GPT-3 and reckless abandon.
 
+- 🎬 [Watch the demo on YouTube!](https://youtu.be/qTT8-COvkGk)
+
 🛑 **Caveat emptor:** This is dangerous! You probably shouldn't use this without a deep understanding of all the ways it could go wrong! I am not responsible for *anything* that breaks or goes wrong if you try to use this.
 
 **Why it's dangerous**: This script will ask GPT-3 to generate a command-line script for your system and run it blindly. This is a _terrible_ idea—a proper production version of this should be carefully santiized and monitored.
